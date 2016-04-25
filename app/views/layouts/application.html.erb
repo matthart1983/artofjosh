@@ -20,13 +20,13 @@
 <body>
  <nav>
       <header>  
-      <h2 class="logo"><a href="index.html">the art of j<i class="star fa fa-asterisk" ></i>sh</a></h2>
+      <h2 class="logo"><a href="<%= home_index_path %>">the art of j<i class="star fa fa-asterisk" ></i>sh</a></h2>
       <h3 class="sub_logo">Joshua Bollback Butler</h3> 
       </header>
 
       <ul>
-        <li><a href="contact.html">contact</a></li>
-        <li><a href="about.html">about</a></li>
+        <li><%= link_to 'contact', home_contact_path %></li>
+        <li><%= link_to 'about', home_about_path %> </li>
       </ul>
     </nav>
     <div class="container clear">
