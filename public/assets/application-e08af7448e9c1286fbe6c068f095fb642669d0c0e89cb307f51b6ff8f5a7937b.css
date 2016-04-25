@@ -10,13 +10,14 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
+
+
  */
 
  /* 
  *  Owl Carousel - Animate Plugin
  */
+
 .owl-carousel .animated {
   -webkit-animation-duration: 1000ms;
   animation-duration: 1000ms;
@@ -292,7 +293,8 @@ li > a {
 	    float: right;
 	    padding: 30px;
 	    		color: #72ac34;
-	text-decoration: none;
+	    		text
+
 }
 .about_title {
 		color: #72ac34;
